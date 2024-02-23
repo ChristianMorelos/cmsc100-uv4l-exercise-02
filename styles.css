@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+}
+
+#nav-bar img{
+    width: 220px;
+    height: auto;
+}
+
+#nav-bar div{
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav-bar a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    padding-right: 25px;
+
+}
+
+#nav-bar a:hover{
+    text-decoration: underline;
+}
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    padding-top: 200px;
+}
+
+.profile-pic{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.icon img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.resume-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    cursor: pointer;
+    width: 100px; 
+}
+
+.resume-button:hover {
+    background-color: white;
+    color: black;
+}
+
+#intro {
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#intro h1 {
+    margin: 5px;
+}
+
+#intro h1.greetings {
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+#intro h1.name {
+    font-size: 40px;
+}
+
+#intro h1.position {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+#project-section {
+    padding-top: 200px;
+}
+
+.div-header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects div {
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 40px;
+    border: 1px solid rgb(171, 39, 39);
+    border-radius: 1em;
+}
+
+#projects .title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#projects .description{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+#skill-about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: first baseline;
+    padding-top: 100px;
+}
+
+#skill-about-section div {
+    margin: 50px;
+}
+
+#skill-about-section img {
+    width: auto;
+    height: 50px;
+    padding: 10px;  
+    padding-top: 0;
+}
+
+.paragraph {
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    max-width: 450px;
+    line-height: 25px; 
+    padding-top: 30px;
+}
+
+#prog-lang img{
+    padding-top: 0px;
+}
+
+#accent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#accent img {
+    height: 50px;
+    width: 4px;
+    padding-right: 15px;
+}
+
+#footer {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#footer h1 {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 10px; 
+    color: grey;
+}
+
+#footer div{
+    display: flex;
+    justify-content: center;
+}
+
+#footer img{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
